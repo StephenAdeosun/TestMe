@@ -12,6 +12,7 @@ function LoveLearning() {
       <Box as="section" 
       mt={['40px','60px','156px']}
        display={'flex'} alignItems={'center'} justifyContent={'space-between'} 
+       gap={['20px','26px','0px']}
       flexDirection={['column', 'column', 'row']}
       className={Styles.body}>
         <Text

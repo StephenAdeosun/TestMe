@@ -27,6 +27,7 @@ function NewLearning() {
             fontSize={["16px", "22px"]}
             textAlign={"center"}
             m={"auto"}
+            mt={['20px','40px']}
             fontWeight={400}
             maxW={"667px"}
           >
