@@ -13,7 +13,7 @@ import Styles from "../app/page.module.css";
 
 function HeroSection() {
   return (
-    <Box>
+    <Box mx='40px'>
       <Box
         as="section"
         className={Styles.body}

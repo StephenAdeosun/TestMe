@@ -8,7 +8,7 @@ import Styles from "../app/page.module.css";
 
 function NewLearning() {
   return (
-    <Box>
+    <Box mx='40px'>
       <Box>
         <Box as="section" mt={"150px"} className={Styles.body}>
           <Text

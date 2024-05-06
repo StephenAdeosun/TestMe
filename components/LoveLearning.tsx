@@ -7,7 +7,7 @@ import Styles from "../app/page.module.css";
 
 function LoveLearning() {
   return (
-    <Box>
+    <Box mx='40px'>
         <Divider mt={['40px','60px','133px']} />
       <Box as="section" 
       mt={['40px','60px','156px']}

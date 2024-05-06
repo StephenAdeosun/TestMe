@@ -1,6 +1,7 @@
 // app/page.tsx
 'use client'
 import { Link } from '@chakra-ui/next-js'
+import Navbar from '@/components/Navbar'
 import HeroSection from '@/components/HeroSection'
 import LoveLearning from '@/components/LoveLearning'
 import NewLanguage from '@/components/NewLanguage'
@@ -11,7 +12,8 @@ import styles from "./page.module.css";
 
 export default function Page() {
   return (
-<Box as="section" className={styles.body}>
+<Box as="section"  className={styles.body}>
+  <Navbar />
   <HeroSection />
   <LoveLearning />
   <NewLanguage />

@@ -9,7 +9,8 @@ import Styles from "../app/page.module.css";
 function DownloadApp() {
   return (
     <Box bgColor={'#FFCE31'}
-     minH={['380px','680px']}
+     minH={['580px','680px']}
+    //  mx='40px'
      mt={'100px'} alignItems={'center'} display={'flex'} justifyContent={'center'}>
       <Box>
         <Box as="section" mt={"150px"} className={Styles.body}>

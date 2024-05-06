@@ -14,7 +14,7 @@ import Styles from "../app/page.module.css";
 
 function Footer() {
   return (
-    <Box mt={['80px', '100px', '140px']}>
+    <Box mt={['80px', '100px', '140px']} mx={['16px','24px','32px','40px']}>
       <Box>
         <Box
           display={"flex"}
@@ -144,6 +144,7 @@ function Footer() {
           fontSize="18px"
           fontWeight={400}
           mt={'36px'}
+          pb={'40px'}
         //   maxW='828px'
           >
         Privacy Policy | Terms & Conditions | Cookies Policy 
