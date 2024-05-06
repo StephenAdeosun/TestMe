@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box,Divider } from '@chakra-ui/react'
 
-function Divider() {
+function Spacing() {
   return (
     
     <Box>
@@ -12,4 +12,4 @@ function Divider() {
   )
 }
 
-export default Divider
+export default Spacing
