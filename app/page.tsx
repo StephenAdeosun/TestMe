@@ -3,6 +3,7 @@
 import { Link } from '@chakra-ui/next-js'
 import Navbar from '@/components/Navbar'
 import HeroSection from '@/components/HeroSection'
+import Divider from '@/components/Divider'
 import LoveLearning from '@/components/LoveLearning'
 import NewLanguage from '@/components/NewLanguage'
 import DownloadApp from '@/components/DownloadApp'  
@@ -14,9 +15,7 @@ export default function Page() {
   return (
 <Box as="section"  className={styles.body}>
   <Navbar />
-  <Divider bgColor={'black'} />
-  <Divider bgColor={'black'} />
-  <Divider bgColor={'black'} />
+  <Divider />
   <HeroSection />
   <LoveLearning />
   <NewLanguage />
