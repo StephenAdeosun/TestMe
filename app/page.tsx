@@ -8,7 +8,7 @@ import LoveLearning from '@/components/LoveLearning'
 import NewLanguage from '@/components/NewLanguage'
 import DownloadApp from '@/components/DownloadApp'  
 import Footer from '@/components/Footer'
-import { Box, Button, Heading, Text,Divider } from '@chakra-ui/react'
+import { Box, Button, Heading, Text } from '@chakra-ui/react'
 import styles from "./page.module.css";
 
 export default function Page() {
