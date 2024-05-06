@@ -13,7 +13,9 @@ import Styles from "../app/page.module.css";
 
 function HeroSection() {
   return (
-    <Box  mx={['16px','24px','32px','40px']}>
+    <Box  mx={['16px','24px','32px','40px']}
+    mt={['40px','60px','120px']}
+    >
       <Box
         as="section"
         className={Styles.body}
