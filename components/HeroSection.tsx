@@ -25,7 +25,7 @@ function HeroSection() {
         // py="12"
         // px={{ base: "4", md: "8" }}
       >
-        <Box maxW={728} display="flex" flexDirection="column" gap="40px">
+        <Box maxW={728} display="flex" flexDirection="column" gap={['20px','40px']}>
           <Text
             as="h1"
             lineHeight={["40px", "95px"]}
@@ -62,8 +62,8 @@ function HeroSection() {
               maxW={"216px"}
               height="52px"
               borderRadius={40}
-              p={4}
-              fontSize={[12,14,16, 20]}
+              px={8}
+              fontSize={[14,14,16, 20]}
               // colorScheme="teal"
               type="submit"
               _hover={{

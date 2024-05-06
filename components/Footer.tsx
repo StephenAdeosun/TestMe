@@ -20,6 +20,7 @@ function Footer() {
           display={"flex"}
           justifyContent={"space-between"}
           alignItems={"center"}
+          gap={['40px','40px','0px']}
           flexDirection={['column', 'column', 'row']}        
         >
           <Box>
